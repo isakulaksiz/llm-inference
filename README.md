@@ -1,7 +1,7 @@
 # llm-inference
 
 ### Docker Image Oluştur
-docker build -t flask-llm 
+docker build -t flask-llm .
 
 ### Docker Container Çalıştır
-docker run -p 5050:5050 flask-llm
+docker run -p 5054:5054 flask-llm
